@@ -1,0 +1,19 @@
+Performing C++ SOURCE FILE Test HAVE_FFMPEG_MAX_ANALYZE_DURATION failed with the following output:
+Change Dir: /Users/hpj123/project/project_visnav/thirdparty/build-Pangolin/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6d226/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_6d226.dir/build.make CMakeFiles/cmTC_6d226.dir/build
+Building CXX object CMakeFiles/cmTC_6d226.dir/src.cxx.o
+/usr/bin/g++ -DHAVE_FFMPEG_MAX_ANALYZE_DURATION -I/opt/local/include -Wall -Wextra -march=native -O3 -Wno-deprecated-declarations -Wno-null-pointer-arithmetic -Wno-unknown-warning-option -Wno-unused-function -Wno-deprecated-register  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -MD -MT CMakeFiles/cmTC_6d226.dir/src.cxx.o -MF CMakeFiles/cmTC_6d226.dir/src.cxx.o.d -o CMakeFiles/cmTC_6d226.dir/src.cxx.o -c /Users/hpj123/project/project_visnav/thirdparty/build-Pangolin/CMakeFiles/CMakeTmp/src.cxx
+/Users/hpj123/project/project_visnav/thirdparty/build-Pangolin/CMakeFiles/CMakeTmp/src.cxx:3:33: error: invalid use of non-static data member 'max_analyze_duration'
+        sizeof(AVFormatContext::max_analyze_duration);
+               ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_6d226.dir/src.cxx.o] Error 1
+make: *** [cmTC_6d226/fast] Error 2
+
+
+Source file was:
+#include "/opt/local/include/libavformat/avformat.h"
+      int main() {
+        sizeof(AVFormatContext::max_analyze_duration);
+      }

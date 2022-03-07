@@ -1,0 +1,16 @@
+/Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/rebuild_cache.dir
+/Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/edit_cache.dir
+/Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/install/local.dir
+/Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/test.dir
+/Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/list_install_components.dir
+/Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/install/strip.dir
+/Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/install.dir
+/Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/uninstall.dir
+/Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/internal/ceres/CMakeFiles/install/strip.dir
+/Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/internal/ceres/CMakeFiles/install.dir
+/Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/internal/ceres/CMakeFiles/list_install_components.dir
+/Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/internal/ceres/CMakeFiles/rebuild_cache.dir
+/Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/internal/ceres/CMakeFiles/edit_cache.dir
+/Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/internal/ceres/CMakeFiles/install/local.dir
+/Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/internal/ceres/CMakeFiles/test.dir
+/Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/internal/ceres/CMakeFiles/ceres.dir

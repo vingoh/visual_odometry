@@ -1,0 +1,428 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "sfm"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 115,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 71,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 72,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 73,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 74,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -ftemplate-backtrace-limit=0 -Wall -Wextra -Wsign-compare -Wno-exceptions -march=native  -O3 -DNDEBUG -g -DEIGEN_INITIALIZE_MATRICES_BY_NAN -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15"
+				},
+				{
+					"fragment" : "-std=c++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "GFLAGS_IS_A_DLL=0"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/Users/hpj123/project/project_visnav/thirdparty/Sophus"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/hpj123/project/project_visnav/thirdparty/cereal/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/hpj123/project/project_visnav/thirdparty/CLI11/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/hpj123/project/project_visnav/include"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/Users/hpj123/project/project_visnav/thirdparty/eigen"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/config"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/Users/hpj123/project/project_visnav/thirdparty/ceres-solver/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/usr/local/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/OpenGL.framework"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/Users/hpj123/project/project_visnav/thirdparty/Pangolin/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/Users/hpj123/project/project_visnav/thirdparty/build-Pangolin/src/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/usr/local/include/opencv"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/Users/hpj123/project/project_visnav/thirdparty/opengv/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/Users/hpj123/project/project_visnav/thirdparty/eigen/unsupported"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "sfm::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-ftemplate-backtrace-limit=0 -Wall -Wextra -Wsign-compare -Wno-exceptions -march=native  -O3 -DNDEBUG -g -DEIGEN_INITIALIZE_MATRICES_BY_NAN",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/Users/hpj123/project/project_visnav/thirdparty/build-Pangolin/src -Wl,-rpath,/usr/local/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../thirdparty/build-ceres-solver/lib/libceres.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../thirdparty/build-Pangolin/src/libpangolin.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libtbb.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../thirdparty/build-opengv/lib/libopengv.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libglog.0.5.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libgflags.2.2.2.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libspqr.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libtbb.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libcholmod.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libccolamd.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libcamd.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libcolamd.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libamd.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/local/lib/libopenblas.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libsuitesparseconfig.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libmetis.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libcxsparse.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-framework",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "Accelerate",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/local/lib/libopenblas.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libsuitesparseconfig.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libmetis.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libcxsparse.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-framework",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "Accelerate",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-framework",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "OpenGL",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libGLEW.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-framework Cocoa",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/local/lib/libavcodec.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/local/lib/libavformat.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/local/lib/libavutil.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/local/lib/libswscale.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/local/lib/libavdevice.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/local/lib/libpng.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/local/lib/libz.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/local/lib/libjpeg.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/local/lib/libtiff.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/local/lib/libzstd.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/local/lib/liblz4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_features2d.3.4.6.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_flann.3.4.6.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_highgui.3.4.6.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_videoio.3.4.6.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_imgcodecs.3.4.6.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_imgproc.3.4.6.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_core.3.4.6.dylib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "sfm",
+	"nameOnDisk" : "sfm",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/sfm.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

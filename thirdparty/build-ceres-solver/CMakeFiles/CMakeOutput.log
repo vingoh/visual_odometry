@@ -1,0 +1,462 @@
+The system is: Darwin - 19.6.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/3.20.5/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/g++ 
+Build flags: -march=native;-O3;-Wno-deprecated-declarations;-Wno-null-pointer-arithmetic;-Wno-unknown-warning-option;-Wno-unused-function
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is AppleClang, found in "/Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/3.20.5/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_15e3c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_15e3c.dir/build.make CMakeFiles/cmTC_15e3c.dir/build
+Building C object CMakeFiles/cmTC_15e3c.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -v -Wl,-v -MD -MT CMakeFiles/cmTC_15e3c.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_15e3c.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_15e3c.dir/CMakeCCompilerABI.c.o -c /opt/local/share/cmake-3.20/Modules/CMakeCCompilerABI.c
+Apple clang version 12.0.0 (clang-1200.0.32.29)
+Target: x86_64-apple-darwin19.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mframe-pointer=all -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=11.1 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 609.8 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0 -dependency-file CMakeFiles/cmTC_15e3c.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_15e3c.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -fdebug-compilation-dir /Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_15e3c.dir/CMakeCCompilerABI.c.o -x c /opt/local/share/cmake-3.20/Modules/CMakeCCompilerABI.c
+clang -cc1 version 12.0.0 (clang-1200.0.32.29) default target x86_64-apple-darwin19.6.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_15e3c
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15e3c.dir/link.txt --verbose=1
+/usr/bin/gcc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_15e3c.dir/CMakeCCompilerABI.c.o -o cmTC_15e3c 
+Apple clang version 12.0.0 (clang-1200.0.32.29)
+Target: x86_64-apple-darwin19.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 10.15.0 11.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -o cmTC_15e3c -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_15e3c.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-609.8
+BUILD 15:07:46 Dec 18 2020
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  end of search list found
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_15e3c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_15e3c.dir/build.make CMakeFiles/cmTC_15e3c.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_15e3c.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -v -Wl -v -MD -MT CMakeFiles/cmTC_15e3c.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_15e3c.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_15e3c.dir/CMakeCCompilerABI.c.o -c /opt/local/share/cmake-3.20/Modules/CMakeCCompilerABI.c]
+  ignore line: [Apple clang version 12.0.0 (clang-1200.0.32.29)]
+  ignore line: [Target: x86_64-apple-darwin19.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mframe-pointer=all -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=11.1 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 609.8 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0 -dependency-file CMakeFiles/cmTC_15e3c.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_15e3c.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -fdebug-compilation-dir /Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_15e3c.dir/CMakeCCompilerABI.c.o -x c /opt/local/share/cmake-3.20/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 12.0.0 (clang-1200.0.32.29) default target x86_64-apple-darwin19.6.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_15e3c]
+  ignore line: [/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15e3c.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_15e3c.dir/CMakeCCompilerABI.c.o -o cmTC_15e3c ]
+  ignore line: [Apple clang version 12.0.0 (clang-1200.0.32.29)]
+  ignore line: [Target: x86_64-apple-darwin19.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 10.15.0 11.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -o cmTC_15e3c -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_15e3c.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [10.15.0] ==> ignore
+    arg [11.1] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_15e3c] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_15e3c.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks]
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6be49/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_6be49.dir/build.make CMakeFiles/cmTC_6be49.dir/build
+Building CXX object CMakeFiles/cmTC_6be49.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++   -march=native -O3 -Wno-deprecated-declarations -Wno-null-pointer-arithmetic -Wno-unknown-warning-option -Wno-unused-function  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -v -Wl,-v -MD -MT CMakeFiles/cmTC_6be49.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_6be49.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_6be49.dir/CMakeCXXCompilerABI.cpp.o -c /opt/local/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp
+Apple clang version 12.0.0 (clang-1200.0.32.29)
+Target: x86_64-apple-darwin19.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/c++/v1"
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mframe-pointer=all -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=11.1 -target-cpu skylake -target-feature +sse2 -target-feature +cx16 -target-feature +sahf -target-feature -tbm -target-feature -avx512ifma -target-feature -sha -target-feature -gfni -target-feature -fma4 -target-feature -vpclmulqdq -target-feature +prfchw -target-feature +bmi2 -target-feature -cldemote -target-feature +fsgsbase -target-feature -ptwrite -target-feature +xsavec -target-feature +popcnt -target-feature +aes -target-feature -avx512bitalg -target-feature -movdiri -target-feature +xsaves -target-feature -avx512er -target-feature -avx512vnni -target-feature -avx512vpopcntdq -target-feature -pconfig -target-feature -clwb -target-feature -avx512f -target-feature -clzero -target-feature -pku -target-feature +mmx -target-feature -lwp -target-feature -rdpid -target-feature -xop -target-feature +rdseed -target-feature -waitpkg -target-feature -movdir64b -target-feature -sse4a -target-feature -avx512bw -target-feature +clflushopt -target-feature +xsave -target-feature -avx512vbmi2 -target-feature +64bit -target-feature -avx512vl -target-feature +invpcid -target-feature -avx512cd -target-feature +avx -target-feature -vaes -target-feature +cx8 -target-feature +fma -target-feature +rtm -target-feature +bmi -target-feature -enqcmd -target-feature +rdrnd -target-feature -mwaitx -target-feature +sse4.1 -target-feature +sse4.2 -target-feature +avx2 -target-feature +fxsr -target-feature -wbnoinvd -target-feature +sse -target-feature +lzcnt -target-feature +pclmul -target-feature -prefetchwt1 -target-feature +f16c -target-feature +ssse3 -target-feature +sgx -target-feature -shstk -target-feature +cmov -target-feature -avx512vbmi -target-feature -avx512bf16 -target-feature +movbe -target-feature +xsaveopt -target-feature -avx512dq -target-feature +adx -target-feature -avx512pf -target-feature +sse3 -dwarf-column-info -debugger-tuning=lldb -target-linker-version 609.8 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0 -dependency-file CMakeFiles/cmTC_6be49.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_6be49.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O3 -Wno-deprecated-declarations -Wno-null-pointer-arithmetic -Wno-unknown-warning-option -Wno-unused-function -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -fdeprecated-macro -fdebug-compilation-dir /Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fobjc-runtime=macosx-10.15.0 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_6be49.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/local/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 12.0.0 (clang-1200.0.32.29) default target x86_64-apple-darwin19.6.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking CXX executable cmTC_6be49
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6be49.dir/link.txt --verbose=1
+/usr/bin/g++ -march=native -O3 -Wno-deprecated-declarations -Wno-null-pointer-arithmetic -Wno-unknown-warning-option -Wno-unused-function  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_6be49.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_6be49 
+Apple clang version 12.0.0 (clang-1200.0.32.29)
+Target: x86_64-apple-darwin19.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 10.15.0 11.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -o cmTC_6be49 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_6be49.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-609.8
+BUILD 15:07:46 Dec 18 2020
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  end of search list found
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_6be49/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_6be49.dir/build.make CMakeFiles/cmTC_6be49.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_6be49.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/g++   -march=native -O3 -Wno-deprecated-declarations -Wno-null-pointer-arithmetic -Wno-unknown-warning-option -Wno-unused-function  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -v -Wl -v -MD -MT CMakeFiles/cmTC_6be49.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_6be49.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_6be49.dir/CMakeCXXCompilerABI.cpp.o -c /opt/local/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Apple clang version 12.0.0 (clang-1200.0.32.29)]
+  ignore line: [Target: x86_64-apple-darwin19.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/c++/v1"]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mframe-pointer=all -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=11.1 -target-cpu skylake -target-feature +sse2 -target-feature +cx16 -target-feature +sahf -target-feature -tbm -target-feature -avx512ifma -target-feature -sha -target-feature -gfni -target-feature -fma4 -target-feature -vpclmulqdq -target-feature +prfchw -target-feature +bmi2 -target-feature -cldemote -target-feature +fsgsbase -target-feature -ptwrite -target-feature +xsavec -target-feature +popcnt -target-feature +aes -target-feature -avx512bitalg -target-feature -movdiri -target-feature +xsaves -target-feature -avx512er -target-feature -avx512vnni -target-feature -avx512vpopcntdq -target-feature -pconfig -target-feature -clwb -target-feature -avx512f -target-feature -clzero -target-feature -pku -target-feature +mmx -target-feature -lwp -target-feature -rdpid -target-feature -xop -target-feature +rdseed -target-feature -waitpkg -target-feature -movdir64b -target-feature -sse4a -target-feature -avx512bw -target-feature +clflushopt -target-feature +xsave -target-feature -avx512vbmi2 -target-feature +64bit -target-feature -avx512vl -target-feature +invpcid -target-feature -avx512cd -target-feature +avx -target-feature -vaes -target-feature +cx8 -target-feature +fma -target-feature +rtm -target-feature +bmi -target-feature -enqcmd -target-feature +rdrnd -target-feature -mwaitx -target-feature +sse4.1 -target-feature +sse4.2 -target-feature +avx2 -target-feature +fxsr -target-feature -wbnoinvd -target-feature +sse -target-feature +lzcnt -target-feature +pclmul -target-feature -prefetchwt1 -target-feature +f16c -target-feature +ssse3 -target-feature +sgx -target-feature -shstk -target-feature +cmov -target-feature -avx512vbmi -target-feature -avx512bf16 -target-feature +movbe -target-feature +xsaveopt -target-feature -avx512dq -target-feature +adx -target-feature -avx512pf -target-feature +sse3 -dwarf-column-info -debugger-tuning=lldb -target-linker-version 609.8 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0 -dependency-file CMakeFiles/cmTC_6be49.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_6be49.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O3 -Wno-deprecated-declarations -Wno-null-pointer-arithmetic -Wno-unknown-warning-option -Wno-unused-function -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -fdeprecated-macro -fdebug-compilation-dir /Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fobjc-runtime=macosx-10.15.0 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_6be49.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/local/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 12.0.0 (clang-1200.0.32.29) default target x86_64-apple-darwin19.6.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_6be49]
+  ignore line: [/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6be49.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++ -march=native -O3 -Wno-deprecated-declarations -Wno-null-pointer-arithmetic -Wno-unknown-warning-option -Wno-unused-function  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_6be49.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_6be49 ]
+  ignore line: [Apple clang version 12.0.0 (clang-1200.0.32.29)]
+  ignore line: [Target: x86_64-apple-darwin19.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 10.15.0 11.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -o cmTC_6be49 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_6be49.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [10.15.0] ==> ignore
+    arg [11.1] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_6be49] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_6be49.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit objs: []
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks]
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2da86/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_2da86.dir/build.make CMakeFiles/cmTC_2da86.dir/build
+Building C object CMakeFiles/cmTC_2da86.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -MD -MT CMakeFiles/cmTC_2da86.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_2da86.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_2da86.dir/CheckIncludeFile.c.o -c /Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2da86
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2da86.dir/link.txt --verbose=1
+/usr/bin/gcc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2da86.dir/CheckIncludeFile.c.o -o cmTC_2da86 
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7037e/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7037e.dir/build.make CMakeFiles/cmTC_7037e.dir/build
+Building C object CMakeFiles/cmTC_7037e.dir/src.c.o
+/usr/bin/gcc -DCMAKE_HAVE_LIBC_PTHREAD  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -MD -MT CMakeFiles/cmTC_7037e.dir/src.c.o -MF CMakeFiles/cmTC_7037e.dir/src.c.o.d -o CMakeFiles/cmTC_7037e.dir/src.c.o -c /Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7037e
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7037e.dir/link.txt --verbose=1
+/usr/bin/gcc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_7037e.dir/src.c.o -o cmTC_7037e 
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b9079/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b9079.dir/build.make CMakeFiles/cmTC_b9079.dir/build
+Building C object CMakeFiles/cmTC_b9079.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=sgemm_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -MD -MT CMakeFiles/cmTC_b9079.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_b9079.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_b9079.dir/CheckFunctionExists.c.o -c /opt/local/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b9079
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9079.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=sgemm_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b9079.dir/CheckFunctionExists.c.o -o cmTC_b9079  /opt/local/lib/libopenblas.dylib 
+
+
+
+Determining if the function cheev_ exists passed with the following output:
+Change Dir: /Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ee0a4/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ee0a4.dir/build.make CMakeFiles/cmTC_ee0a4.dir/build
+Building C object CMakeFiles/cmTC_ee0a4.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=cheev_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -MD -MT CMakeFiles/cmTC_ee0a4.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_ee0a4.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_ee0a4.dir/CheckFunctionExists.c.o -c /opt/local/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ee0a4
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee0a4.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=cheev_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ee0a4.dir/CheckFunctionExists.c.o -o cmTC_ee0a4  /opt/local/lib/libopenblas.dylib -lm -ldl 
+
+
+
+Performing C++ SOURCE FILE Test ACCELERATE_FRAMEWORK_HAS_SPARSE_SOLVER succeeded with the following output:
+Change Dir: /Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a23f3/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a23f3.dir/build.make CMakeFiles/cmTC_a23f3.dir/build
+Building CXX object CMakeFiles/cmTC_a23f3.dir/src.cxx.o
+/usr/bin/g++ -DACCELERATE_FRAMEWORK_HAS_SPARSE_SOLVER -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Accelerate.framework/Headers -march=native -O3 -Wno-deprecated-declarations -Wno-null-pointer-arithmetic -Wno-unknown-warning-option -Wno-unused-function  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -MD -MT CMakeFiles/cmTC_a23f3.dir/src.cxx.o -MF CMakeFiles/cmTC_a23f3.dir/src.cxx.o.d -o CMakeFiles/cmTC_a23f3.dir/src.cxx.o -c /Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/CMakeTmp/src.cxx
+In file included from /Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/CMakeTmp/src.cxx:1:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.h:20:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Accelerate.framework/Headers/../Frameworks/vecLib.framework/Headers/vecLib.h:72:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/Headers/BNNS/bnns.h:6:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/Headers/BNNS/bnns_constants.h:149:190: warning: 'BNNSPoolingFunctionAverageCountIncludePadding' is only available on macOS 11.0 or newer [-Wunguarded-availability-new]
+  BNNSPoolingFunctionAverage  __API_DEPRECATED_WITH_REPLACEMENT("BNNSPoolingFunctionAverageCountIncludePadding", macos(10.12, 11.0), ios(10.0, 14.0), watchos(3.0, 7.0), tvos(10.0, 14.0)) = BNNSPoolingFunctionAverageCountIncludePadding,
+                                                                                                                                                                                             ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/Headers/BNNS/bnns_constants.h:144:3: note: 'BNNSPoolingFunctionAverageCountIncludePadding' has been marked as being introduced in macOS 11.0 here, but the deployment target is macOS 10.15.0
+  BNNSPoolingFunctionAverageCountIncludePadding __API_AVAILABLE(macos(11.0), ios(14.0), watchos(7.0), tvos(14.0)) = 1,
+  ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/Headers/BNNS/bnns_constants.h:141:1: note: annotate anonymous enum with an availability attribute to silence this warning
+BNNS_ENUM(BNNSPoolingFunction, uint32_t,
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/Headers/BNNS/bnns_constants.h:18:9: note: expanded from macro 'BNNS_ENUM'
+        enum { __VA_ARGS__ }; typedef _type _name
+        ^
+1 warning generated.
+Linking CXX executable cmTC_a23f3
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a23f3.dir/link.txt --verbose=1
+/usr/bin/g++ -march=native -O3 -Wno-deprecated-declarations -Wno-null-pointer-arithmetic -Wno-unknown-warning-option -Wno-unused-function  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a23f3.dir/src.cxx.o -o cmTC_a23f3  -framework Accelerate 
+
+
+Source file was:
+#include <Accelerate.h>
+   int main() {
+     SparseMatrix_Double A;
+     SparseFactor(SparseFactorizationCholesky, A);
+     return 0;
+   }
+Performing C++ SOURCE FILE Test CHECK_CXX_FLAG_Wmissing_declarations succeeded with the following output:
+Change Dir: /Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3eb84/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_3eb84.dir/build.make CMakeFiles/cmTC_3eb84.dir/build
+Building CXX object CMakeFiles/cmTC_3eb84.dir/src.cxx.o
+/usr/bin/g++ -DCHECK_CXX_FLAG_Wmissing_declarations  -march=native -O3 -Wno-deprecated-declarations -Wno-null-pointer-arithmetic -Wno-unknown-warning-option -Wno-unused-function  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -Wmissing-declarations -MD -MT CMakeFiles/cmTC_3eb84.dir/src.cxx.o -MF CMakeFiles/cmTC_3eb84.dir/src.cxx.o.d -o CMakeFiles/cmTC_3eb84.dir/src.cxx.o -c /Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3eb84
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3eb84.dir/link.txt --verbose=1
+/usr/bin/g++ -march=native -O3 -Wno-deprecated-declarations -Wno-null-pointer-arithmetic -Wno-unknown-warning-option -Wno-unused-function  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3eb84.dir/src.cxx.o -o cmTC_3eb84 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CHECK_CXX_FLAG_Wno_unknown_pragmas succeeded with the following output:
+Change Dir: /Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c03c9/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c03c9.dir/build.make CMakeFiles/cmTC_c03c9.dir/build
+Building CXX object CMakeFiles/cmTC_c03c9.dir/src.cxx.o
+/usr/bin/g++ -DCHECK_CXX_FLAG_Wno_unknown_pragmas  -march=native -O3 -Wno-deprecated-declarations -Wno-null-pointer-arithmetic -Wno-unknown-warning-option -Wno-unused-function  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -Wno-unknown-pragmas -MD -MT CMakeFiles/cmTC_c03c9.dir/src.cxx.o -MF CMakeFiles/cmTC_c03c9.dir/src.cxx.o.d -o CMakeFiles/cmTC_c03c9.dir/src.cxx.o -c /Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c03c9
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c03c9.dir/link.txt --verbose=1
+/usr/bin/g++ -march=native -O3 -Wno-deprecated-declarations -Wno-null-pointer-arithmetic -Wno-unknown-warning-option -Wno-unused-function  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c03c9.dir/src.cxx.o -o cmTC_c03c9 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CHECK_CXX_FLAG_Wno_sign_compare succeeded with the following output:
+Change Dir: /Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_fc018/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_fc018.dir/build.make CMakeFiles/cmTC_fc018.dir/build
+Building CXX object CMakeFiles/cmTC_fc018.dir/src.cxx.o
+/usr/bin/g++ -DCHECK_CXX_FLAG_Wno_sign_compare  -march=native -O3 -Wno-deprecated-declarations -Wno-null-pointer-arithmetic -Wno-unknown-warning-option -Wno-unused-function  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -Wno-sign-compare -MD -MT CMakeFiles/cmTC_fc018.dir/src.cxx.o -MF CMakeFiles/cmTC_fc018.dir/src.cxx.o.d -o CMakeFiles/cmTC_fc018.dir/src.cxx.o -c /Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_fc018
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc018.dir/link.txt --verbose=1
+/usr/bin/g++ -march=native -O3 -Wno-deprecated-declarations -Wno-null-pointer-arithmetic -Wno-unknown-warning-option -Wno-unused-function  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_fc018.dir/src.cxx.o -o cmTC_fc018 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CHECK_CXX_FLAG_Wno_unused_parameter succeeded with the following output:
+Change Dir: /Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b8b09/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b8b09.dir/build.make CMakeFiles/cmTC_b8b09.dir/build
+Building CXX object CMakeFiles/cmTC_b8b09.dir/src.cxx.o
+/usr/bin/g++ -DCHECK_CXX_FLAG_Wno_unused_parameter  -march=native -O3 -Wno-deprecated-declarations -Wno-null-pointer-arithmetic -Wno-unknown-warning-option -Wno-unused-function  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -Wno-unused-parameter -MD -MT CMakeFiles/cmTC_b8b09.dir/src.cxx.o -MF CMakeFiles/cmTC_b8b09.dir/src.cxx.o.d -o CMakeFiles/cmTC_b8b09.dir/src.cxx.o -c /Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b8b09
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8b09.dir/link.txt --verbose=1
+/usr/bin/g++ -march=native -O3 -Wno-deprecated-declarations -Wno-null-pointer-arithmetic -Wno-unknown-warning-option -Wno-unused-function  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b8b09.dir/src.cxx.o -o cmTC_b8b09 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CHECK_CXX_FLAG_Wno_missing_field_initializers succeeded with the following output:
+Change Dir: /Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_febba/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_febba.dir/build.make CMakeFiles/cmTC_febba.dir/build
+Building CXX object CMakeFiles/cmTC_febba.dir/src.cxx.o
+/usr/bin/g++ -DCHECK_CXX_FLAG_Wno_missing_field_initializers  -march=native -O3 -Wno-deprecated-declarations -Wno-null-pointer-arithmetic -Wno-unknown-warning-option -Wno-unused-function  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -Wno-missing-field-initializers -MD -MT CMakeFiles/cmTC_febba.dir/src.cxx.o -MF CMakeFiles/cmTC_febba.dir/src.cxx.o.d -o CMakeFiles/cmTC_febba.dir/src.cxx.o -c /Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_febba
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_febba.dir/link.txt --verbose=1
+/usr/bin/g++ -march=native -O3 -Wno-deprecated-declarations -Wno-null-pointer-arithmetic -Wno-unknown-warning-option -Wno-unused-function  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_febba.dir/src.cxx.o -o cmTC_febba 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_RETURN_TYPE_C_LINKAGE succeeded with the following output:
+Change Dir: /Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_72a77/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_72a77.dir/build.make CMakeFiles/cmTC_72a77.dir/build
+Building CXX object CMakeFiles/cmTC_72a77.dir/src.cxx.o
+/usr/bin/g++ -DHAVE_RETURN_TYPE_C_LINKAGE  -march=native -O3 -Wno-deprecated-declarations -Wno-null-pointer-arithmetic -Wno-unknown-warning-option -Wno-unused-function  -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers -Qunused-arguments -mllvm -inline-threshold=600  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -Wno-return-type-c-linkage -MD -MT CMakeFiles/cmTC_72a77.dir/src.cxx.o -MF CMakeFiles/cmTC_72a77.dir/src.cxx.o.d -o CMakeFiles/cmTC_72a77.dir/src.cxx.o -c /Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_72a77
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72a77.dir/link.txt --verbose=1
+/usr/bin/g++ -march=native -O3 -Wno-deprecated-declarations -Wno-null-pointer-arithmetic -Wno-unknown-warning-option -Wno-unused-function  -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers -Qunused-arguments -mllvm -inline-threshold=600  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_72a77.dir/src.cxx.o -o cmTC_72a77 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CHECK_CXX_FLAG_Wno_missing_declarations succeeded with the following output:
+Change Dir: /Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7bdfe/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7bdfe.dir/build.make CMakeFiles/cmTC_7bdfe.dir/build
+Building CXX object CMakeFiles/cmTC_7bdfe.dir/src.cxx.o
+/usr/bin/g++ -DCHECK_CXX_FLAG_Wno_missing_declarations  -march=native -O3 -Wno-deprecated-declarations -Wno-null-pointer-arithmetic -Wno-unknown-warning-option -Wno-unused-function  -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers -Qunused-arguments -mllvm -inline-threshold=600 -Wno-return-type-c-linkage  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -Wno-missing-declarations -MD -MT CMakeFiles/cmTC_7bdfe.dir/src.cxx.o -MF CMakeFiles/cmTC_7bdfe.dir/src.cxx.o.d -o CMakeFiles/cmTC_7bdfe.dir/src.cxx.o -c /Users/hpj123/project/project_visnav/thirdparty/build-ceres-solver/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7bdfe
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7bdfe.dir/link.txt --verbose=1
+/usr/bin/g++ -march=native -O3 -Wno-deprecated-declarations -Wno-null-pointer-arithmetic -Wno-unknown-warning-option -Wno-unused-function  -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers -Qunused-arguments -mllvm -inline-threshold=600 -Wno-return-type-c-linkage  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_7bdfe.dir/src.cxx.o -o cmTC_7bdfe 
+
+
+Source file was:
+int main() { return 0; }
